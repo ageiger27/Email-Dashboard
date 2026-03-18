@@ -201,7 +201,7 @@
   // IMPORTANT: Paste your Apps Script deployment URL below
   // It should look like: https://script.google.com/macros/s/ABC.../exec
   // ============================================================
-  const SCRIPT_URL = "AKfycbyNPHjT_inJevMud6nUQaXSF5Jtsb8GoYrcp6hIVutHn8SQ5AmhdUdHDNveNRxVoGOL";
+  const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyNPHjT_inJevMud6nUQaXSF5Jtsb8GoYrcp6hIVutHn8SQ5AmhdUdHDNveNRxVoGOL/exec";
 
   async function api(action, extra = {}) {
     const params = new URLSearchParams({ action, ...extra });
@@ -333,7 +333,7 @@
   }
 
   // Check config on load
-  if (SCRIPT_URL === "AKfycbyNPHjT_inJevMud6nUQaXSF5Jtsb8GoYrcp6hIVutHn8SQ5AmhdUdHDNveNRxVoGOL") {
+  if (SCRIPT_URL === "https://script.google.com/macros/s/AKfycbyNPHjT_inJevMud6nUQaXSF5Jtsb8GoYrcp6hIVutHn8SQ5AmhdUdHDNveNRxVoGOL/exec") {
     document.getElementById('main').innerHTML = `
       <div class="config-banner">
         <strong>⚠️ Setup Required</strong>
